@@ -92,7 +92,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="http://creative-tim.com">
+            <a href="index.html">
               <div class="logo-container">
                 <div class="logo">
                   <img src="assets/img/new_logo.png">
@@ -107,10 +107,18 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">Back to home</a></li>
+              <li><a href="about.html" class="btn btn-round btn-default">About</a></li>
+              <li><a href="partnerships.html">Partnerships</a></li>
+              <li><a href="researches.html">Researches</a></li>
 
-              <li><a href="http://www.creative-tim.com/product/get-shit-done-kit"
-                  class="btn btn-round btn-default">Download</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"> Language <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="en-us/">English - EN</a></li>
+                  <li><a href="es-mx/">Español - MX</a></li>
+                  <li><a href="pt-br/">Português - BR</a></li>
+                </ul>
+              </li>
             </ul>
 
           </div><!-- /.navbar-collapse -->
@@ -145,7 +153,7 @@
           </p>
         </div>
       </div>
-      <script type="text/javascript" src="jquery/config.js"></script>
+      <script type="text/javascript" src="jquery/equipaments-data.js"></script>
       <div id="products" class="row tim-row">
         <!-- <div class="col-md-3 col-md-offset-1">
           <h3 id="product_name">Fresadora</h3>
@@ -182,4 +190,5 @@
   const all_data = document.querySelector("#name_product")
   console.log(`Your data > ${all_data}`);
 </script>
+
 </html>

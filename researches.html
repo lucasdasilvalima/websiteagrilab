@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title> Partnerships of Agrilab </title>
+  <title> Researches of Agrilab </title>
 
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
   <meta name="viewport" content="width=device-width" />
@@ -107,10 +107,11 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+
               <li><a href="about.html" class="btn btn-round btn-default">About</a></li>
               <li><a href="equipaments.html">Equipaments</a></li>
-              <li><a href="researches.html">Researches</a></li>
-
+              <li><a href="partnerships.html">Partnerships</a></li>
+              
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown"> Language <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -131,7 +132,7 @@
         <div>AGRILAB</div>
         <div class="border no-right-border"></div>
         <div class="border"></div>
-        <div>PARTNERSHIPS</div>
+        <div>RESEARCHES</div>
       </div>
       <div class="img-src" style="background-image: url('assets/img/blurred-black-cover.jpeg')"></div>
       <div class="img-src img-blurred" style="background-image: url('assets/img/blurred-black-cover.jpeg')"></div>
@@ -144,61 +145,28 @@
 
       <div class="row tim-row">
         <div class="col-md-3 col-md-offset-1">
-          <h3>Partnerships</h3>
+          <h3>Researches</h3>
         </div>
 
         <div class="col-md-7 ">
           <p>
-            We have important partnerships, both nationally and internationally, they are:
+            This is the Agrilab`s team:
           </p>
-
-          <p>National</p>
-          <p>
-          <ul>
-            <li>Embrapa Uva e Vinho - Bento Gonçalves-RS/Vacaria-RS</li>
-            <li>Embrapa Instrumentação - São Carlos-SP</li>
-            <li>Universidade Estadual do Oeste do Paraná - Cascavel/PR</li>
-            <li>Universidade Estadual de Campinas - Campinas/SP</li>
-            <li>Lar Cooperativa Agroindustrial - Medianeira/PR</li>
-          </ul>
-          </p>
-
-          <p>International</p>
-          <p>
-          <ul>
-            <li>Universidade da Califórnia - Davis/CA/EUA</li>
-            <li> Universidade Católica de Valparaíso - Quillota/Chile</li>
-            <li> Centro de Melhoramento de Milho e Trigo - Cidade do México/México</li>
-            <li> Groundup Data Technologies - Quebec/Canadá</li>
-          </ul>
-          </p>
-
         </div>
       </div>
-      <!--     end Partnerships -->
-
-      <div class="row tim-row">
-        <div class="col-md-3 col-md-offset-1">
-          <h3> Promotion </h3>
+      <script type="text/javascript" src="jquery/researches-data.js"></script>
+      <div id="products" class="row tim-row">
+        <!-- <div class="col-md-3 col-md-offset-1">
+          <h3 id="product_name">Fresadora</h3>
         </div>
-
+  
         <div class="col-md-7">
-          <p>
-            These are the institutions that promote us.
-          </p>
-          <p>
-          <ul>
-            <li>Ministério da Agricultura, Pecuária e Abastecimento (MAPA)</li>
-            <li>CAPES</li>
-            <li>CNPQ</li>
-            <li>FUNDAÇÃO ARAUCÁRIA</li>
-            <li>FUNDAÇÃO PARQUE TECNOLÓGICO ITAIPU</li>
-            <li>UTFPR</li>
-            <li>EMBRAPA</li>
-          </ul>
-          </p>
-
-        </div>
+          <p id="product_description">product_description</p>
+          <div class="col-md-4 col-sm-6">
+            <img id src="assets/img/mockup.png" alt="Awesome Image" class="img-circle">
+            <p id="product_price">25.000</p>
+          </div>
+        </div> -->
       </div>
 
       <!-- end row -->
@@ -211,12 +179,16 @@
       <div class="container">
         <div class="row">
           <div class="credits">
-            &copy; 2016 Get Shit Done Kit, made with <i class="fa fa-heart heart" alt="love"></i> for a better web.
+            &copy; 2020 AGRILAB All Right Reserved.
           </div>
         </div>
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="jquery/equipaments.js"></script>
 </body>
-
+<script>
+  const all_data = document.querySelector("#name_product")
+  console.log(`Your data > ${all_data}`);
+</script>
 </html>
